@@ -4,7 +4,10 @@ git add *
 git commit -m "第n次提交"
 git status
 git log
-git reset --hand   版本
+git reflog
+git reset --hard HEAD^回退到上一版本
+git reset --hard  版本号
+git resst --hard ~100回退100个版本
 git ssh-keygen -t rsa -C "hetao758@126.com"
 git remote add origin https://github.com/walnut007/git
 git push -u origin master
