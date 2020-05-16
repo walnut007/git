@@ -1,0 +1,13 @@
+git init
+clear
+git add *
+git commit -m "第n次提交"
+git status
+git log
+git reset --hand   版本
+git ssh-keygen -t rsa -C "hetao758@126.com"
+git remote add origin https://github.com/walnut007/git
+git push -u origin master
+git push
+git clone
+git pull
